@@ -1,9 +1,11 @@
 import React from "react";
 
-class Header extends Component {
+class Header extends React.Component {
   render() {
     return (
-      <p>Ceci est un header</p>
+      <div id="header">
+        <h1>Mes bonus</h1>
+      </div>
     );
   }
 }
